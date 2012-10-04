@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+      <meta name="description" content="桑山知之／くわ山ともゆき"/>
+		<title>くわ山ともゆき大百科</title>
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" href="css/tooltip.css" type="text/css" />
+      <link rel="stylesheet" href="css/prettyPopin.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+      <script type="text/javascript" src="js/jquery.prettyPopin.js"></script>
+      <script type="text/javascript" src="js/event.js"></script>
+	</head>
+	<body>
+
+   <div class="main">
+
+      <div class="buttons">
+         <a href="http://twitter.com/tom_kuwa" target="_blank">
+            <img src="img/ver1/twibird_110.png" width="118" height="118" border="0" alt="twitter" id="twitter" class="button"/>
+            <img src="img/ver1/twitter_color.png" width="118" height="118" border="0" alt="twitter" id="twitter_color" class="button_color"/>
+         </a>
+
+         <a href="http://www.facebook.com/tom.kuwa" target="_blank">
+            <img src="img/ver1/facebook_90_110.png" width="118" height="118" border="0" alt="facebook" id="facebook" class="button"/>
+            <img src="img/ver1/facebook_color.png" width="118" height="118" border="0" alt="facebook" id="facebook_color" class="button_color"/>
+         </a>
+
+         <a href="http://d.hatena.ne.jp/kuwacom/" target="_blank">
+            <img src="img/ver1/diary_110.png" width="118" height="118" border="0" alt="diary" id="diary" class="button"/>
+            <img src="img/ver1/diary_color_g.png" width="118" height="118" border="0" alt="diary" id="diary_color" class="button_color"/>
+         </a>
+
+         <a href="http://b.hatena.ne.jp/kuwacom/" target="_blank">
+            <img src="img/ver1/hatena_90_110.png" width="118" height="118" border="0" alt="hatena" id="hatena" class="button"/>
+            <img src="img/ver1/hatena_color.png" width="118" height="118" border="0" alt="hatena" id="hatena_color" class="button_color"/>
+         </a>
+
+         <a href="ajax/intro.html" rel="prettyPopin">
+            <img src="img/ver1/intro.png" width="118" height="118" border="0" alt="intro" id="intro" class="button"/>
+            <img src="img/ver1/intro_color.png" width="118" height="118" border="0" alt="intro" id="intro_color" class="button_color"/>
+         </a>
+
+         <a href="http://kuwayama-tomoyuki.tumblr.com/" target="_blank">
+            <img src="img/ver1/tumblr_90_110.png" width="118" height="118" border="0" alt="tumblr" id="tumblr" class="button"/>
+            <img src="img/ver1/tumblr_color.png" width="118" height="118" border="0" alt="tumblr" id="tumblr_color" class="button_color"/>
+         </a>
+
+         <a href="http://growbutton.com/tom_kuwa" target="_blank">
+            <img src="img/ver1/grow_90_110.png" width="118" height="118" border="0" alt="grow" id="grow" class="button"/>
+            <img src="img/ver1/grow_color.png" width="118" height="118" border="0" alt="grow" id="grow_color" class="button_color"/>
+         </a>
+
+         <a href="http://kuwacom.blogspot.jp/" target="_blank">
+            <img src="img/ver1/blogger_90_110.png" width="118" height="118" border="0" alt="blogger" id="blogger" class="button"/>
+            <img src="img/ver1/blogger_color.png" width="118" height="118" border="0" alt="blogger" id="blogger_color" class="button_color"/>
+         </a>
+
+         <a href="ajax/mail/form.php" rel="prettyPopin">
+            <img src="img/ver1/mail_gray_90_110_2.png" width="118" height="118" border="0" alt="mail" id="mail" class="button"/>
+            <img src="img/ver1/mail_color.png" width="118" height="118" border="0" alt="mail" id="mail_color" class="button_color"/>
+         </a>
+
+         <img src="img/ver1/button_gray_90_150.png" width="158" height="158" border="0" alt="key" id="key" class="button_key"/>
+         <img src="img/ver1/key_2_close_70.png" width="54" height="70" border="0" alt="close" id="close" class="key"/>
+         <img src="img/ver1/key_2_open_70.png" width="54" height="70" border="0" alt="open" id="open" class="key" />
+      </div>
+
+      <div id="arrow_twitter" class="arrow_box">
+         <p class="arrow_text">Twitter</p>
+      </div>
+
+      <div id="arrow_facebook" class="arrow_box">
+         <p class="arrow_text">facebook</p>
+      </div>
+
+      <div id="arrow_hatena" class="arrow_box">
+      	<p class="arrow_text">はてなブックマーク</p>
+         <p class="arrow_text">執筆記事一覧</p>
+      </div>
+
+      <div id="arrow_diary" class="arrow_box">
+      	<p class="arrow_text">はてなダイアリー</p>
+      </div>
+
+      <div id="arrow_profile" class="arrow_box">
+      	<p class="arrow_text">Profile</p>
+      </div>
+
+      <div id="arrow_tumblr" class="arrow_box">
+      	<p class="arrow_text">tumblr.</p>
+      </div>
+
+      <div id="arrow_grow" class="arrow_box">
+      	<p class="arrow_text">Grow!</p>
+      </div>
+
+      <div id="arrow_blogger" class="arrow_box">
+      	<p class="arrow_text">Blogger</p>
+      </div>
+
+      <div id="arrow_mail" class="arrow_box">
+      	<p class="arrow_text">Mail</p>
+      </div>
+   </div>
+
+	</body>
+</html>

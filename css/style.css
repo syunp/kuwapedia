@@ -1,0 +1,139 @@
+* {
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+}
+
+body {
+   background-color: #FFFFFF;
+}
+
+.main {
+   width: 900px;
+   height: 700px;
+   position: relative;
+   margin: 0 auto;
+}
+
+.button {
+   position: absolute;
+   top: 500px;
+   left: 450px;
+   margin-left: -59px;
+   opacity: 0;
+}
+
+.button_color {
+   position: absolute;
+   top: 500px;
+   left: 450px;
+   margin-left: -59px;
+   opacity: 0;
+}
+
+.button_key {
+   position: absolute;
+   top: 480px;
+   left: 450px;
+   margin-left: -79px;
+   opacity: 0;
+}
+
+#key {
+   cursor: pointer;
+}
+
+#open {
+   opacity: 0; 
+}
+
+.key {
+   position: absolute;
+   top: 520px;
+   left: 450px;
+   margin-left: -31px;
+   cursor: pointer;
+   opacity: 0;
+}
+
+.arrow_box{
+	padding:10px;
+	width:100px;
+	height:20px;
+	border-radius:6px;
+	box-shadow:0 1px 4px rgba(0,0,0,0.3)
+}
+
+.arrow_text {
+   text-align: center;
+   font-size: 16px;
+   color: #FFFFFF;
+   font-weight: 900;
+   font-family: "'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Arial,Verdana,'ＭＳ Ｐゴシック',sans-serif;";
+   line-height: 18px;
+}
+
+#arrow_twitter {
+   position: absolute;
+   top: 440px;
+   left: 12px;
+   opacity: 0;
+}
+
+#arrow_facebook {
+   position: absolute;
+   top: 298px;
+   left: 40px;
+   opacity: 0;
+}
+
+#arrow_hatena {
+   position: absolute;
+   width: 150px;
+   height: 33px;
+   top: 85px;
+   left: 215px;
+   opacity: 0;
+}
+
+#arrow_diary {
+   position: absolute;
+   width: 140px;
+   top: 178px;
+   left: 100px;
+   opacity: 0;
+}
+
+#arrow_profile {
+   position: absolute;
+   top: 68px;
+   left: 383px;
+   opacity: 0;
+}
+
+#arrow_tumblr {
+   position: absolute;
+   top: 98px;
+   left: 522px;
+   opacity: 0;
+}
+
+#arrow_grow {
+   position: absolute;
+   top: 177px;
+   left: 645px;
+   opacity: 0;
+}
+
+#arrow_blogger {
+   position: absolute;
+   top: 298px;
+   left: 725px;
+   opacity: 0;
+}
+
+#arrow_mail {
+   position: absolute;
+   top: 440px;
+   left: 755px;
+   opacity: 0;
+}
